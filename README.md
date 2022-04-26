@@ -10,23 +10,39 @@ The purpose of the first part of the project is to identify trends in Kickstarte
 
 ## Analysis and Challenges
 
-### Analysis of Outcomes Based on Launch Date
+### Part 1: Analysis of Outcomes Based on Launch Date
 
-### Analysis of Outcomes Based on Goals
+Theater Kickstarter Outcomes (successful/ failed/ canceled) versus Kickstarter Launch Date
+
+![Theater Outcomes vs Launch](https://github.com/cewarkentin/kickstarter-analysis/blob/main/Theater%20Outcomes%20vs%20Launch.png)
+
+The graph above was created using a Pivot Chart and Pivot Table. The data was filtered slightly to imitate Louise's project(s); the provided graph shows results for all Kickstarter project categories in the parent category "Theater" in every year with provided data. The x-axis marks the month of initial launch of the Kickstarter, and the y-axis marks the raw count of Kickstarter projects described by their final outcome: successful (achieved the project funding goal), failed (did not receive sufficient funding), or canceled (ended early by the Kickstarter creator).
+
+Based on the visual above, the number of canceled theater Kickstarter projects does not appear to depend on the month of initial Kickstarter launch. The largest number of canceled theater Kickstarter projects (7) were launched in January. There were 0 cancelled theater Kickstarter projects launched in October-- all Kickstarters launched in October were either successful or failed.
+
+The highest number of failed theater Kickstarter projects (52) were launched in May. Theater Kickstarters launched between November-April have the lowest numbers of failure.
+
+### Part 2: Analysis of Outcomes Based on Goals
+
+Kickstarter Outcomes (successful/ failed/ canceled) versus Initial Kickstarter Goal
+
+![Outcomes vs Goals](https://github.com/cewarkentin/kickstarter-analysis/blob/main/Outcomes%20vs%20Goals.png)
 
 ### Challenges and Difficulties Encountered
 
-One of the challenges of this project was making sure that every data point was accounted for. To ensure I wasn't missing any data points, I created a table of reference values to check that my =COUNTIF() formulas were catching everything that I needed them to catch. 
+One of the challenges of this project was making sure that every data point was accounted for only once. To ensure I wasn't missing or double-counting any data points, I created a table of reference values to check that my =COUNTIF() formulas were catching everything that I needed them to catch. 
 
 ![Reference table](https://github.com/cewarkentin/kickstarter-analysis/blob/main/Reference%20table.png)
 
-Reference table
+Reference Table
 
-Once I knew how many total Kickstarters there were for each outcome, I was able to use those references to ensure that the remainder of my Excel formulas were catching all the data that they needed to catch. The bottom 
+Once I knew how many total Kickstarters there were for each outcome, I was able to use those references to ensure that the remainder of my Excel formulas were catching all the data that they needed to catch. The bottom row of the table is a sum of the columns, which I used to check against the Reference Table.
 
-![Reference table](https://github.com/cewarkentin/kickstarter-analysis/blob/main/Reference%20table.png)
+![Excel comparing to reference table](https://github.com/cewarkentin/kickstarter-analysis/blob/main/Excel%20comparing%20to%20reference%20table.png)
 
-Final table, checking totals against the Reference table to ensure formula accuracy.
+Final Table, checking totals against the Reference table to ensure formula accuracy.
+
+The Reference Table was useful because I did need to adjust my formulas, and the references provided guidance on whether I was catching too few or too many pieces of data. 
 
 ## Results
 
@@ -36,4 +52,4 @@ Final table, checking totals against the Reference table to ensure formula accur
 
 - What are some limitations of this dataset?
 
-- What are some other possible tables and/or graphs that we could create?
+- What are some other possible tables and/or graphs that we could create? Rather than creating a Pivot Table and Chart comparing raw counts of Theater Outcome versus Launch Date, I would like to look at the percentages of Outcome / Total Launched per each month. Rather than looking at raw counts of Outcome versus Launch Date, I think looking at percentages could give more insight as to which month is most likely to lead to a particular outcome. The data would look very similar, but I think it would provide an easier and more obvious interpretation of the data that I believe Louise is looking for. I believe it is harder to talk about likelihood for success when all you can say based on the table and chart created is "7 theater Kickstarter projects were canceled in January."
