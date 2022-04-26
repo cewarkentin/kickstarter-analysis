@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-Louise is a playwright that is using Kickstarters to fund her theater projects. Using data pulled from Kickstarter, I provided advise to Louise on how to launch a Kickstarter for the highest chance of success. Following her Kickstarter, Louise was curious how different campaigns fared in relation to their launch dates and their funding goals.
+Louise is a playwright that is using Kickstarters to fund her theater projects. Using data pulled from the Kickstarter crowd-funding website, I provided advise to Louise on how to launch a Kickstarter for the highest chance of success. Following her Kickstarter, Louise was curious how different campaigns fared in relation to their launch dates and their funding goals.
 
 ### Purpose
 
@@ -16,11 +16,13 @@ Theater Kickstarter Outcomes (successful/ failed/ canceled) versus Kickstarter L
 
 ![Theater Outcomes vs Launch](https://github.com/cewarkentin/kickstarter-analysis/blob/main/Theater%20Outcomes%20vs%20Launch.png)
 
-The graph above was created using a Pivot Chart and Pivot Table. The data was filtered slightly to imitate Louise's project(s); the provided graph shows results for all Kickstarter project categories in the parent category "Theater" in every year with provided data. The x-axis marks the month of initial launch of the Kickstarter, and the y-axis marks the raw count of Kickstarter projects described by their final outcome: successful (achieved the project funding goal), failed (did not receive sufficient funding), or canceled (ended early by the Kickstarter creator).
+The visual above was created using a Pivot Chart and Pivot Table. The data was filtered slightly to imitate Louise's projects; the provided graph shows results for all Kickstarter project categories in the parent category "Theater" in every year with provided data. The x-axis marks the month of initial launch of the Kickstarter, and the y-axis marks the raw count of Kickstarter projects described by their final outcome: successful (achieved or surpassed the project funding goal), failed (did not receive sufficient funding), or canceled (ended early by the Kickstarter creator). The highest number of total theater Kickstarters launched occured in May and the lowest number of total theater Kickstarters launched occured in December.
 
-Based on the visual above, the number of canceled theater Kickstarter projects does not appear to depend on the month of initial Kickstarter launch. The largest number of canceled theater Kickstarter projects (7) were launched in January. There were 0 cancelled theater Kickstarter projects launched in October-- all Kickstarters launched in October were either successful or failed.
+Based on the visual above, the number of canceled theater Kickstarter projects does not appear to depend on the month of initial Kickstarter launch. The largest number of canceled theater Kickstarter projects (7) were launched in January. There were 0 canceled theater Kickstarter projects launched in October-- all Kickstarters launched in October were either successful or failed.
 
-The highest number of failed theater Kickstarter projects (52) were launched in May. Theater Kickstarters launched between November-April have the lowest numbers of failure.
+The highest number of failed theater Kickstarter projects (52) were launched in May. Theater Kickstarters launched between November-April had the lowest numbers of failure.
+
+The highest number of successful theater Kickstarter projects (111) were also launched in May. Theater Kickstarters launched between May-July had the highest numbers of success.
 
 ### Part 2: Analysis of Outcomes Based on Goals
 
