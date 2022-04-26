@@ -18,8 +18,15 @@ The purpose of the first part of the project is to identify trends in Kickstarte
 
 One of the challenges of this project was making sure that every data point was accounted for. To ensure I wasn't missing any data points, I created a table of reference values to check that my =COUNTIF() formulas were catching everything that I needed them to catch. 
 
-Reference table:
-![Reference table](https://github.com/cewarkentin/kickstarter-analysis/Reference table.png?raw=true)
+![Reference table](https://github.com/cewarkentin/kickstarter-analysis/blob/main/Reference%20table.png)
+
+Reference table
+
+Once I knew how many total Kickstarters there were for each outcome, I was able to use those references to ensure that the remainder of my Excel formulas were catching all the data that they needed to catch. The bottom 
+
+![Reference table](https://github.com/cewarkentin/kickstarter-analysis/blob/main/Reference%20table.png)
+
+Final table, checking totals against the Reference table to ensure formula accuracy.
 
 ## Results
 
