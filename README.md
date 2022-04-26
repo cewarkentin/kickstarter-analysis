@@ -19,7 +19,7 @@ The purpose of the first part of the project is to identify trends in Kickstarte
 One of the challenges of this project was making sure that every data point was accounted for. To ensure I wasn't missing any data points, I created a table of reference values to check that my =COUNTIF() formulas were catching everything that I needed them to catch. 
 
 Reference table:
-![Reference table](C:\Users\cewar\Desktop\UT Data Bootcamp\Challenge 1 Resources/Reference table.png)
+![Reference table](cewarkentin/kickstarter-analysis/Reference table.png)
 
 ## Results
 
