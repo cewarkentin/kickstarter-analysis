@@ -30,6 +30,14 @@ Kickstarter Outcomes (successful/ failed/ canceled) versus Initial Kickstarter G
 
 ![Outcomes vs Goals](https://github.com/cewarkentin/kickstarter-analysis/blob/main/Outcomes%20vs%20Goals.png)
 
+The data used to create the image above was not filtered; the provided graph shows results for all Kickstarter project categories in every year with provided data. The x-axis marks various increasing Kickstarter monetary goals, and the y-axis marks the percentage of Kickstarter projects described by their final outcome: successful, failed, or canceled.
+
+The Outcome Based on Goals graph follows what can be logically expected--the cheapest Kickstarter goals also had the highest percentage of success (71%) and the most expensive Kickstarter goals had the lowest percentage of success (19%). Kickstarters that were not successful were more likely failed than canceled. Regardless of goal amount, the range of canceled Kickstarters was 18%. Regardless of goal amount, the range of failed Kickstarters was 33%.
+
+Interestingly, there is a rise in percent success for Kickstarter goals $35,000-44,999. However, there is a higher percentage success for Kickstarter goals $0-14,999. Kickstarter goals higher than $44,999 quickly decline in percentage success and increase in both percent failed and canceled.
+
+Kickstarter goals between $20,000-34,999 and $40,000+ were more likely to fail than to be successful.
+
 ### Challenges and Difficulties Encountered
 
 One of the challenges of this project was making sure that every data point was accounted for only once. To ensure I wasn't missing or double-counting any data points, I created a table of reference values to check that my =COUNTIF() formulas were catching everything that I needed them to catch. 
