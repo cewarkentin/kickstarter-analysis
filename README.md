@@ -56,7 +56,7 @@ The Reference Table was useful because I did need to adjust my formulas, and the
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+- What are two conclusions you can draw about the Outcomes based on Launch Date? From the Outcomes based on Launch date, I can conclude that it is likely best to launch a theater Kickstarter project between May-August. Additionally, I would conclude that December is the worst month to launch a theater Kickstarter project. 
 
 - What can you conclude about the Outcomes based on Goals?
 
