@@ -56,10 +56,12 @@ The Reference Table was useful because I did need to adjust my formulas, and the
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date? From the Outcomes based on Launch date, I can conclude that it is likely best to launch a theater Kickstarter project between May-August. Additionally, I would conclude that December is the worst month to launch a theater Kickstarter project. 
+From the Outcomes based on Launch date, I can conclude that it is likely best to launch a theater Kickstarter project between May-August. Additionally, I would conclude that December is the worst month to launch a theater Kickstarter project. 
 
-- What can you conclude about the Outcomes based on Goals?
+From the Outcome based on Goals data, I can conclude that cheaper Kickstarter financial goals are more likely to be successful. Additionally, as a Kickstarter's financial goal increases, it is more likely to be either canceled or fail.
 
-- What are some limitations of this dataset?
+If Louise is dedicated to using a Kickstarter to fund her project, then this dataset is acceptible. However, if Louise is looking for the most likely way to get her project(s) funded, it may be useful to compare the Kickstarter data to other potential funding sources.
 
-- What are some other possible tables and/or graphs that we could create? Rather than creating a Pivot Table and Chart comparing raw counts of Theater Outcome versus Launch Date, I would like to look at the percentages of Outcome / Total Launched per each month. Rather than looking at raw counts of Outcome versus Launch Date, I think looking at percentages could give more insight as to which month is most likely to lead to a particular outcome. The data would look very similar, but I think it would provide an easier and more obvious interpretation of the data that I believe Louise is looking for. I believe it is harder to talk about likelihood for success when all you can say based on the table and chart created is "7 theater Kickstarter projects were canceled in January."
+This dataset is large, and required decision making on our part as the data analyst to filter the data to what is useful and applicable and relevant to Louise's project.
+
+Rather than creating a Pivot Table and Chart comparing raw counts of Theater Outcome versus Launch Date, I would like to look at the percentages of Outcome / Total Launched per each month. Rather than looking at raw counts of Outcome versus Launch Date, I think looking at percentages could give more insight as to which month is most likely to lead to a particular outcome. The data would look very similar, but I think it would provide an easier and more obvious interpretation of the data that I believe Louise is looking for. I believe it is harder to talk about likelihood for success when all you can say based on the table and chart created is "7 theater Kickstarter projects were canceled in January."
